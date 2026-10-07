@@ -6,106 +6,83 @@
 ![Jakarta](https://img.shields.io/badge/Jakarta-Validation-FE672A)
 ![Java JWT](https://img.shields.io/badge/Auth0-Java_JWT-EB5424)
 
-# ConnectUde API • Educational Management Platform
+# ConnectUde
 
-Educational management REST API designed to facilitate administration, collaboration, and communication between students, teachers, academic staff, and educational institutions.
+Educational management platform designed to facilitate administration, collaboration and communication between students, teachers and academic staff.
 
-This repository contains my backend contribution, built with Spring Boot, PostgreSQL, JWT authentication, and role-based access control.
+> \> [Live Preview](https://redabensaad.github.io/connectude)
 
-## ✨ Key Features
+---
 
-* Student Management
-* Teacher Management
-* Course Management
-* Subject Management
-* Class Management
-* Grade Management
-* JWT Authentication
-* Role-Based Authorization
-* Database Versioning with Flyway
-* Input Validation using Jakarta Validation
+$ Context
 
-## 🛠️ Technologies Used
+ConnectUde is an educational management platform built around academic workflows, user management and institutional collaboration.
 
-* **Java 17**
-* **Spring Boot**
-* **Spring Security**
-* **Spring Data JPA**
-* **PostgreSQL**
-* **Flyway**
-* **JWT Authentication**
-* **Jakarta Validation**
-* **Lombok**
-* **Maven**
+This repository contains the backend contribution developed with Spring Boot, PostgreSQL, JWT authentication and role-based access control.
 
-## 🏗️ Architecture Highlights
+---
 
-* RESTful API Design
-* Layered Architecture
-* JWT-Based Authentication
-* Role-Based Access Control
-* Database Migration Management
-* Entity Relationship Modeling
-* Secure Endpoint Protection
+$ Domain
 
-## 👥 Roles & Permissions
+> \> Educational management<br>
+> \> Academic administration<br>
+> \> Student management<br>
+> \> Teacher management<br>
+> \> Evaluation workflows<br>
 
-The platform supports multiple user roles:
+---
 
-* Administrator
-* Teacher
-* Student
-* Academic Staff
-* Recruiter
+$ What Was Built
 
-Access to API endpoints is restricted according to assigned permissions and security policies.
+> \> Student management<br>
+> \> Teacher management<br>
+> \> Course management<br>
+> \> Subject management<br>
+> \> Class management<br>
+> \> Grade management<br>
+> \> User authentication<br>
+> \> Role-based authorization<br>
+> \> Academic evaluation workflows<br>
+> \> Database migration support<br>
 
-## 📚 Core Modules
+---
 
-### Users & Authentication
+$ Technical Stack
 
-* User Registration
-* User Login
-* JWT Token Generation
-* Secure Authorization
+> \> Java 17<br>
+> \> Spring Boot 3.5<br>
+> \> Spring Security<br>
+> \> Spring Data JPA<br>
+> \> PostgreSQL 16<br>
+> \> Flyway<br>
+> \> JWT Authentication<br>
+> \> Jakarta Validation<br>
+> \> Lombok<br>
+> \> Maven<br>
 
-### Academic Management
+---
 
-* Teachers
-* Students
-* Courses
-* Subjects
-* Classes
+$ Architecture
 
-### Evaluation System
+The application follows a layered REST architecture built around Spring Boot and PostgreSQL.
 
-* Grade Recording
-* Student Assessment
-* Score Tracking
+Authentication relies on JWT tokens while authorization is enforced through role-based access control mechanisms.
 
-## 🚀 Getting Started
+Database schema evolution is managed through Flyway migrations and validation rules are handled using Jakarta Validation.
 
-### Prerequisites
+---
 
-* Java 17+
-* PostgreSQL
-* Maven
+$ Project Status
 
-### Run the Application
+> \> Completed collaborative project<br>
+> \> Backend contribution repository<br>
+> \> Educational management platform<br>
+> \> Portfolio demonstration project<br>
 
-```bash
-./mvnw spring-boot:run
-```
+---
 
-Default URL:
+$ Notes
 
-```text
-http://localhost:8080
-```
+This project was developed collaboratively as part of an educational management platform.
 
-## 📦 Project Status
-
-**Completed • Backend Contribution Project**
-
-This project demonstrates backend development practices using Spring Boot, Spring Security, PostgreSQL, Flyway, JWT authentication, and role-based access control within an educational management platform.
-
+The repository showcases backend development practices including API design, authentication, authorization, database migrations and academic domain modeling.
