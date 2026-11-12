@@ -86,3 +86,15 @@ $ Notes
 This project was developed collaboratively as part of an educational management platform.
 
 The repository showcases backend development practices including API design, authentication, authorization, database migrations and academic domain modeling.
+
+---
+
+$ Preview
+
+![ConnectUde](shot/connectude.png)
+
+---
+
+$ Built
+
+✓ Jan 2026
